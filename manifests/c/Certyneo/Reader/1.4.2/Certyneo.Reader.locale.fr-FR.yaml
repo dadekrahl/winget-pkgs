@@ -2,7 +2,7 @@
 # yaml-language-server: $schema=https://aka.ms/winget-manifest.locale.1.10.0.schema.json
 
 PackageIdentifier: Certyneo.Reader
-PackageVersion: 1.4.1
+PackageVersion: 1.4.2
 PackageLocale: fr-FR
 Publisher: Certyneo
 PublisherUrl: https://certyneo.com/fr
@@ -28,8 +28,12 @@ Tags:
 - forms
 - offline
 ReleaseNotes: |-
-  - Certyneo Reader arrive sur Flathub : sous Linux, installez-le et recevez ses mises à jour depuis votre logithèque.
-  - Dans un paquet Flatpak, les mises à jour passent par Flathub et l’application ne se met plus à jour seule.
+  - Certyneo Reader Pro : la même licence débloque désormais l’OCR dans 48 langues, la conversion en Word et Excel et le PDF/A.
+  - OCR dans 48 langues, dont le russe et le chinois : le texte reconnu reste sélectionnable et copiable. Français et anglais restent gratuits.
+  - Convertir un PDF en Word (titres, tableaux, gras et italique) ou en Excel (une feuille par page, montants écrits en nombres).
+  - PDF/A-2b pour l’archivage légal : si le document ne peut pas être rendu conforme, la conversion le dit au lieu de produire un faux PDF/A.
+  - Licence équipe : 5 ou 10 postes avec une seule clé et une seule facture.
+  - Installé depuis Flathub, « À propos » indique que les mises à jour arrivent par Flathub, via votre logithèque ou « flatpak update ».
 ReleaseNotesUrl: https://certyneo.com/downloads/desktop/releases.json
 ManifestType: locale
 ManifestVersion: 1.10.0

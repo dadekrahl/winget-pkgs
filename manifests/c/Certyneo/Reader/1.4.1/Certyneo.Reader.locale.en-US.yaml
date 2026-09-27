@@ -1,7 +1,8 @@
+# Généré par desktop/scripts/package-manifests.mjs — ne pas modifier à la main.
 # yaml-language-server: $schema=https://aka.ms/winget-manifest.defaultLocale.1.10.0.schema.json
 
 PackageIdentifier: Certyneo.Reader
-PackageVersion: 1.3.0
+PackageVersion: 1.4.1
 PackageLocale: en-US
 Publisher: Certyneo
 PublisherUrl: https://certyneo.com/en
@@ -28,12 +29,8 @@ Tags:
 - forms
 - offline
 ReleaseNotes: |-
-  - New word processor: styles, fonts, colors, lists, tables, pictures, links, header, footer and page numbers, just like in Word.
-  - Save it as a PDF in one click: crisp, selectable text with embedded fonts. The editable document travels inside the PDF.
-  - Open your Word documents (.docx) and save in Word format: headings, lists, tables, pictures and page layout are kept.
-  - A document you created stays free to edit, even once it is a PDF: reopen it in the editor, or use “Edit text” without a license.
-  - Page setup (size, orientation, margins), page breaks, find and replace, word count, and your system’s spell checker.
-  - Automatic recovery: an unsaved document survives an unexpected shutdown.
+  - Certyneo Reader comes to Flathub: on Linux, install it and get its updates from your software center.
+  - Inside a Flatpak, updates come from Flathub and the app no longer updates itself.
 ReleaseNotesUrl: https://certyneo.com/downloads/desktop/releases.json
 ManifestType: defaultLocale
 ManifestVersion: 1.10.0

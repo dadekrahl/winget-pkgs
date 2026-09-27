@@ -2,7 +2,7 @@
 # yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.10.0.schema.json
 
 PackageIdentifier: Certyneo.Reader
-PackageVersion: 1.4.2
+PackageVersion: 1.5.0
 InstallerType: nullsoft
 InstallModes:
 - interactive
@@ -18,27 +18,27 @@ ReleaseDate: 2026-09-27
 Installers:
 - Architecture: x64
   Scope: user
-  InstallerUrl: https://certyneo.com/downloads/desktop/Certyneo-Reader-Setup-1.4.2-offline-x64.exe
-  InstallerSha256: E76E54B8B8AA0BBAC077E047E2535CEC3064195F052B71AE994A5F3538AF4720
+  InstallerUrl: https://certyneo.com/downloads/desktop/Certyneo-Reader-Setup-1.5.0-offline-x64.exe
+  InstallerSha256: FA492E4684D0B6169925D26AB13993A54C31D1CB83BD9188C6316D3C6FD946D1
   InstallerSwitches:
     Custom: /currentuser
 - Architecture: x64
   Scope: machine
-  InstallerUrl: https://certyneo.com/downloads/desktop/Certyneo-Reader-Setup-1.4.2-offline-x64.exe
-  InstallerSha256: E76E54B8B8AA0BBAC077E047E2535CEC3064195F052B71AE994A5F3538AF4720
+  InstallerUrl: https://certyneo.com/downloads/desktop/Certyneo-Reader-Setup-1.5.0-offline-x64.exe
+  InstallerSha256: FA492E4684D0B6169925D26AB13993A54C31D1CB83BD9188C6316D3C6FD946D1
   InstallerSwitches:
     Custom: /allusers
   ElevationRequirement: elevatesSelf
 - Architecture: arm64
   Scope: user
-  InstallerUrl: https://certyneo.com/downloads/desktop/Certyneo-Reader-Setup-1.4.2-offline-arm64.exe
-  InstallerSha256: 6322B26B9A665BB87A383591476AFFDC9C29ACBB53AE793C75F3BFBC601F865F
+  InstallerUrl: https://certyneo.com/downloads/desktop/Certyneo-Reader-Setup-1.5.0-offline-arm64.exe
+  InstallerSha256: 1EFD5571E3E570D99504356CBEAA12BA494DAF9AB5B00FA21A3E9E2CF3B64AA5
   InstallerSwitches:
     Custom: /currentuser
 - Architecture: arm64
   Scope: machine
-  InstallerUrl: https://certyneo.com/downloads/desktop/Certyneo-Reader-Setup-1.4.2-offline-arm64.exe
-  InstallerSha256: 6322B26B9A665BB87A383591476AFFDC9C29ACBB53AE793C75F3BFBC601F865F
+  InstallerUrl: https://certyneo.com/downloads/desktop/Certyneo-Reader-Setup-1.5.0-offline-arm64.exe
+  InstallerSha256: 1EFD5571E3E570D99504356CBEAA12BA494DAF9AB5B00FA21A3E9E2CF3B64AA5
   InstallerSwitches:
     Custom: /allusers
   ElevationRequirement: elevatesSelf

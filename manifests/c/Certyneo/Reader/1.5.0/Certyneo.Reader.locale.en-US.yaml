@@ -1,0 +1,42 @@
+# Généré par desktop/scripts/package-manifests.mjs — ne pas modifier à la main.
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.defaultLocale.1.10.0.schema.json
+
+PackageIdentifier: Certyneo.Reader
+PackageVersion: 1.5.0
+PackageLocale: en-US
+Publisher: Certyneo
+PublisherUrl: https://certyneo.com/en
+PublisherSupportUrl: https://certyneo.com/en/contact
+PrivacyUrl: https://certyneo.com/en/legal/privacy
+Author: Certyneo
+PackageName: Certyneo Reader
+PackageUrl: https://certyneo.com/en/outils/lecteur-pdf
+License: Proprietary, free (paid licence for text editing)
+LicenseUrl: https://certyneo.com/en/legal/terms
+Copyright: Copyright © Certyneo
+ShortDescription: "Free PDF reader and word processor: read, annotate and fill in PDFs, write documents and save them as PDF or Word, offline."
+Description: "Certyneo Reader is a free desktop PDF reader and word processor for Windows that can become your default PDF app. Search, thumbnails, night mode, password-protected files and printing, plus annotation, form filling, redaction, watermarks, Bates numbering and text or table extraction. It crops, numbers, inserts, deletes, rotates and extracts pages, and converts Word, Excel, PowerPoint, text, RTF, images and HEIC photos to PDF. Its word processor writes documents with styles, fonts, lists, tables, pictures, headers and page numbers, opens and saves Word (.docx) files and exports tagged PDFs. Documents stay on your computer: everything works offline and never uploads the file. Documents you create stay free to edit, even as PDF; editing the text of other PDFs requires an optional annual licence."
+Moniker: certyneo-reader
+Tags:
+- pdf
+- pdf-reader
+- pdf-viewer
+- pdf-editor
+- pdf-converter
+- word-processor
+- docx
+- annotate
+- redaction
+- forms
+- offline
+ReleaseNotes: |-
+  - Convert to PDF: Word, Excel, PowerPoint, text, RTF, images, HEIC photos, TIFF, PSD and Illustrator, on your computer.
+  - Drop any of these files into the window: it opens straight away as a PDF.
+  - Crop: trim margins to the millimetre or detect white margins automatically, or switch to A4, A3, A5, Letter or Legal.
+  - Number pages: “3”, “3 / 12” or “Page 3 of 12”, wherever you want, with or without the cover page.
+  - Insert blank pages or the pages of another file; delete, rotate or extract pages by their numbers.
+  - PDF to PowerPoint: one slide per page, as a faithful picture or as editable text.
+  - Image to PDF now also accepts multi-page TIFF, HEIC photos, SVG and PSD.
+ReleaseNotesUrl: https://certyneo.com/downloads/desktop/releases.json
+ManifestType: defaultLocale
+ManifestVersion: 1.10.0

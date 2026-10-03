@@ -2,7 +2,7 @@
 # yaml-language-server: $schema=https://aka.ms/winget-manifest.defaultLocale.1.10.0.schema.json
 
 PackageIdentifier: Certyneo.Reader
-PackageVersion: 1.5.0
+PackageVersion: 1.5.2
 PackageLocale: en-US
 Publisher: Certyneo
 PublisherUrl: https://certyneo.com/en
@@ -30,13 +30,16 @@ Tags:
 - forms
 - offline
 ReleaseNotes: |-
-  - Convert to PDF: Word, Excel, PowerPoint, text, RTF, images, HEIC photos, TIFF, PSD and Illustrator, on your computer.
-  - Drop any of these files into the window: it opens straight away as a PDF.
-  - Crop: trim margins to the millimetre or detect white margins automatically, or switch to A4, A3, A5, Letter or Legal.
-  - Number pages: “3”, “3 / 12” or “Page 3 of 12”, wherever you want, with or without the cover page.
-  - Insert blank pages or the pages of another file; delete, rotate or extract pages by their numbers.
-  - PDF to PowerPoint: one slide per page, as a faithful picture or as editable text.
-  - Image to PDF now also accepts multi-page TIFF, HEIC photos, SVG and PSD.
+  - Arabic and Persian: the app is displayed right to left — toolbar, menus, ribbon and dialogs.
+  - Word processor: Arabic text starts on the right and tables begin on the right; an English paragraph stays on the left.
+  - PDF and Word exports keep the right-to-left direction of your documents.
+  - Word processor: pasting text copied from the web or an email no longer freezes the window; pasting from Word keeps its lists.
+  - Typing after clicking an image or a signature field writes in the right place; Ctrl+Shift+V pastes without formatting.
+  - Comments and tracked changes are no longer attached to a PDF you export or send for signature; you are warned about pending changes.
+  - An edited PDF is no longer lost without asking when you open another file, close it or change the language.
+  - The PDF tools menu scrolls: Watermark, Number pages, Bates, Convert and Batch processing are reachable again.
+  - Watermarks fit and read correctly on rotated pages; Black and white and Compress keep the text of those pages; merging keeps form fields.
+  - More than 30 other fixes from a full test pass of the app.
 ReleaseNotesUrl: https://certyneo.com/downloads/desktop/releases.json
 ManifestType: defaultLocale
 ManifestVersion: 1.10.0

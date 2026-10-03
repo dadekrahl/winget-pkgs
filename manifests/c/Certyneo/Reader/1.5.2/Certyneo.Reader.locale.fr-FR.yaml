@@ -2,7 +2,7 @@
 # yaml-language-server: $schema=https://aka.ms/winget-manifest.locale.1.10.0.schema.json
 
 PackageIdentifier: Certyneo.Reader
-PackageVersion: 1.5.0
+PackageVersion: 1.5.2
 PackageLocale: fr-FR
 Publisher: Certyneo
 PublisherUrl: https://certyneo.com/fr
@@ -29,13 +29,16 @@ Tags:
 - forms
 - offline
 ReleaseNotes: |-
-  - Convertir en PDF : Word, Excel, PowerPoint, texte, RTF, images, photos HEIC, TIFF, PSD et Illustrator, sur votre ordinateur.
-  - Glissez n’importe lequel de ces fichiers dans la fenêtre : il s’ouvre directement en PDF.
-  - Rogner : marges au millimètre ou détection automatique des marges blanches, ou passage en A4, A3, A5, Lettre ou Légal.
-  - Numéroter les pages : « 3 », « 3 / 12 » ou « Page 3 sur 12 », à l’emplacement voulu, avec ou sans la couverture.
-  - Insérer des pages blanches ou celles d’un autre fichier ; supprimer, faire pivoter ou extraire des pages par leurs numéros.
-  - PDF en PowerPoint : une diapositive par page, en image fidèle ou en texte modifiable.
-  - Image en PDF accepte aussi les TIFF de plusieurs pages, les photos HEIC, le SVG et le PSD.
+  - Arabe et persan : l’application s’affiche de droite à gauche — barre d’outils, menus, ruban et boîtes de dialogue.
+  - Traitement de texte : le texte arabe part de la droite et les tableaux commencent à droite ; un paragraphe en anglais reste à gauche.
+  - Les exports PDF et Word gardent le sens d’écriture de droite à gauche de vos documents.
+  - Traitement de texte : coller un texte copié du web ou d’un e-mail ne fige plus la fenêtre ; un collage depuis Word garde ses listes.
+  - Taper après un clic sur une image ou un champ de signature écrit au bon endroit ; Ctrl+Maj+V colle sans mise en forme.
+  - Les commentaires et révisions ne sont plus joints au PDF exporté ou envoyé pour signature ; un avertissement signale les révisions en attente.
+  - Un PDF modifié n’est plus perdu sans question quand vous en ouvrez un autre, le fermez ou changez de langue.
+  - Le menu Outils PDF défile : Filigrane, Numéroter, Bates, Convertir et Traitement par lot sont de nouveau accessibles.
+  - Filigrane entier et lisible sur les pages tournées ; Noir et blanc et Compression gardent le texte de ces pages ; la fusion garde les champs de formulaire.
+  - Plus de 30 autres corrections issues d’une recette complète de l’application.
 ReleaseNotesUrl: https://certyneo.com/downloads/desktop/releases.json
 ManifestType: locale
 ManifestVersion: 1.10.0

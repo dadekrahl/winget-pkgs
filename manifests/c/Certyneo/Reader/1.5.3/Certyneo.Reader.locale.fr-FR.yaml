@@ -2,7 +2,7 @@
 # yaml-language-server: $schema=https://aka.ms/winget-manifest.locale.1.10.0.schema.json
 
 PackageIdentifier: Certyneo.Reader
-PackageVersion: 1.5.2
+PackageVersion: 1.5.3
 PackageLocale: fr-FR
 Publisher: Certyneo
 PublisherUrl: https://certyneo.com/fr
@@ -29,16 +29,12 @@ Tags:
 - forms
 - offline
 ReleaseNotes: |-
-  - Arabe et persan : l’application s’affiche de droite à gauche — barre d’outils, menus, ruban et boîtes de dialogue.
-  - Traitement de texte : le texte arabe part de la droite et les tableaux commencent à droite ; un paragraphe en anglais reste à gauche.
-  - Les exports PDF et Word gardent le sens d’écriture de droite à gauche de vos documents.
-  - Traitement de texte : coller un texte copié du web ou d’un e-mail ne fige plus la fenêtre ; un collage depuis Word garde ses listes.
-  - Taper après un clic sur une image ou un champ de signature écrit au bon endroit ; Ctrl+Maj+V colle sans mise en forme.
-  - Les commentaires et révisions ne sont plus joints au PDF exporté ou envoyé pour signature ; un avertissement signale les révisions en attente.
-  - Un PDF modifié n’est plus perdu sans question quand vous en ouvrez un autre, le fermez ou changez de langue.
-  - Le menu Outils PDF défile : Filigrane, Numéroter, Bates, Convertir et Traitement par lot sont de nouveau accessibles.
-  - Filigrane entier et lisible sur les pages tournées ; Noir et blanc et Compression gardent le texte de ces pages ; la fusion garde les champs de formulaire.
-  - Plus de 30 autres corrections issues d’une recette complète de l’application.
+  - Traitement de texte : en vue Page, le texte ne déborde plus dans la marge du bas ni entre deux feuilles après un collage ; le PDF a les mêmes pages que l’écran.
+  - Un document Word vierge s’ouvre prêt à écrire : le curseur est dans la page et Ctrl+V colle tout de suite, sans licence.
+  - Coller depuis Word : signets, sommaire et commentaires ne laissent plus de faux liens bleus ni de notes parasites dans le document.
+  - Dans le PDF, les tabulations, les suites d’espaces et la largeur des colonnes d’un tableau sont celles de l’écran.
+  - Plus de feuille vide en trop quand un document finit par un champ de signature ou une image tout en bas d’une page.
+  - Le numéro de page de la barre d’état est juste quand le curseur est dans un paragraphe vide.
 ReleaseNotesUrl: https://certyneo.com/downloads/desktop/releases.json
 ManifestType: locale
 ManifestVersion: 1.10.0

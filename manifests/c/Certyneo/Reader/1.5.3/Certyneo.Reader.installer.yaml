@@ -2,7 +2,7 @@
 # yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.10.0.schema.json
 
 PackageIdentifier: Certyneo.Reader
-PackageVersion: 1.5.2
+PackageVersion: 1.5.3
 InstallerType: nullsoft
 InstallModes:
 - interactive
@@ -14,31 +14,31 @@ FileExtensions:
 - pdf
 - cndoc
 - docx
-ReleaseDate: 2026-09-27
+ReleaseDate: 2026-10-06
 Installers:
 - Architecture: x64
   Scope: user
-  InstallerUrl: https://certyneo.com/downloads/desktop/Certyneo-Reader-Setup-1.5.2-offline-x64.exe
-  InstallerSha256: DA182763AC97ADC69E37DCB6DDB86486A1ADB6CF7108EB912DF2B40E0EE997F4
+  InstallerUrl: https://certyneo.com/downloads/desktop/Certyneo-Reader-Setup-1.5.3-offline-x64.exe
+  InstallerSha256: C6DF06FB5B9EEF7AC9ED37FDE5A15502F898107EFAAF573A9EF6B3309D7C6747
   InstallerSwitches:
     Custom: /currentuser
 - Architecture: x64
   Scope: machine
-  InstallerUrl: https://certyneo.com/downloads/desktop/Certyneo-Reader-Setup-1.5.2-offline-x64.exe
-  InstallerSha256: DA182763AC97ADC69E37DCB6DDB86486A1ADB6CF7108EB912DF2B40E0EE997F4
+  InstallerUrl: https://certyneo.com/downloads/desktop/Certyneo-Reader-Setup-1.5.3-offline-x64.exe
+  InstallerSha256: C6DF06FB5B9EEF7AC9ED37FDE5A15502F898107EFAAF573A9EF6B3309D7C6747
   InstallerSwitches:
     Custom: /allusers
   ElevationRequirement: elevatesSelf
 - Architecture: arm64
   Scope: user
-  InstallerUrl: https://certyneo.com/downloads/desktop/Certyneo-Reader-Setup-1.5.2-offline-arm64.exe
-  InstallerSha256: 00B060DF72F1F3C4E26536062E00004A98E94B48AD6BB586A7B3C27E8BD6F5F0
+  InstallerUrl: https://certyneo.com/downloads/desktop/Certyneo-Reader-Setup-1.5.3-offline-arm64.exe
+  InstallerSha256: 3CA8A6A8BC66E0C36D91AF992E8411A77B55EC2F147E46B262515EBD18047D94
   InstallerSwitches:
     Custom: /currentuser
 - Architecture: arm64
   Scope: machine
-  InstallerUrl: https://certyneo.com/downloads/desktop/Certyneo-Reader-Setup-1.5.2-offline-arm64.exe
-  InstallerSha256: 00B060DF72F1F3C4E26536062E00004A98E94B48AD6BB586A7B3C27E8BD6F5F0
+  InstallerUrl: https://certyneo.com/downloads/desktop/Certyneo-Reader-Setup-1.5.3-offline-arm64.exe
+  InstallerSha256: 3CA8A6A8BC66E0C36D91AF992E8411A77B55EC2F147E46B262515EBD18047D94
   InstallerSwitches:
     Custom: /allusers
   ElevationRequirement: elevatesSelf
